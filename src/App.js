@@ -1,11 +1,11 @@
 import Typography from '@mui/material/Typography';
 
+import ResponsiveDrawer from './components/ResponsiveDrawer';
+
 function App() {
   return (
-    <div className='App'>
-      <Typography variant="h1" component="div" gutterBottom>
-      Contributions Manager
-      </Typography>
+    <div>
+      <ResponsiveDrawer />
     </div>
   )
 }
