@@ -11,7 +11,7 @@ export const BottomNavigationMenu = () => {
     const [value, setValue] = useState(0)
     return (
         <BottomNavigation 
-        sx={{ width: '100%', position: 'fixed', bottom: 0 }} 
+        sx={{ width: '100%', position: 'fixed', bottom: 0, display: { sm: 'none' }}} 
         value={value} 
         onChange={(event, newValue) => { 
             setValue(newValue)
