@@ -1,5 +1,3 @@
-import Typography from '@mui/material/Typography';
-
 import ResponsiveDrawer from './components/ResponsiveDrawer';
 
 function App() {
